@@ -1,0 +1,114 @@
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+header {
+    background: no-repeat center/cover url('assets/3287172820_0f7818a534_b.jpg');
+    height: calc(100vh - 200px);
+    padding: 15px;
+}
+
+div h1 {
+    color: white;
+}
+
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.jogadores {
+    background: no-repeat center/cover url('https://th.bing.com/th/id/OIP.9L-gSnCJw2fNBgaMWto0CwHaEo?w=292&h=187&c=7&r=0&o=5&pid=1.7');
+    color: white;
+    padding: 15px;
+}
+
+.jogadores .cards-jogadores {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jogadores .jogadores-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    color: red; 
+}
+
+.jogadores .cards {
+    width: 400px;
+    height: 250px;
+    background: red;
+    margin: 25px;
+    position: relative;
+}
+
+.jogadores .card-image {
+    width: 150px;
+    height: 250px;
+    top: 15px;
+    object-fit: cover;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.jogadores .cards .cards-tag-top h4{
+    position: absolute;
+    left: 0;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.jogadores .cards .cards-tag-content li {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    display: flex;
+    padding: 5px 10px;
+}
+
+
+.jogadores .jogadores-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .footer-cards {
+    padding: 15px;
+    width: 2000px;
+    height: 100px;
+    background: black;
+}
+
+.footer .footer-cards li {
+    color: white;
+}
